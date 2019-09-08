@@ -1,0 +1,10 @@
+a = 3.3
+b = 5.3
+a2 = a**2
+b2 = b**2
+eq1_sum = a**2 + 2*a*b + b**2
+eq2_sum = a**2 - 2*a*b + b**2
+eq1_pow = (a+b)**2
+eq2_pow = (a-b)**2
+print ('First equation: {} = {}'.format(eq1_pow,eq1_sum))
+print ('Second equation: {} = {}'.format(eq2_pow,eq2_sum))
